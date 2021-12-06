@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+D:\AppiumCourse\AppiumJavaCode\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3947321882.index
+694251203.index
+1541200276.index
+1392245661.index
+3536317408.index
+1163480448.index

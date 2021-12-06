@@ -1,0 +1,27 @@
+package nativeAppAutomation;
+
+import java.net.MalformedURLException;
+import java.net.URL;
+
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+import io.appium.java_client.AppiumDriver;
+
+public class Nexchar {
+	public static void main(String[] args) throws Exception {
+		
+		DesiredCapabilities dc=new DesiredCapabilities();
+		dc.setCapability("deviceName","Halaqu Khan");
+		dc.setCapability("udId","JYNBB18509152412");
+		dc.setCapability("platformName","Android");
+		dc.setCapability("platformVersion","8.0.0");
+		
+		dc.setCapability("appPackage","com.pointofsale.nexchar");
+		dc.setCapability("appActivity","com.pointofsale.nexchar.MainActivity");
+		
+        URL server= new URL("http://127.0.0.1:4723/wd/hub");
+		
+		AppiumDriver MobileObj=new AppiumDriver(server,dc);
+	}
+
+}
